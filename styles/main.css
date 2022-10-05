@@ -1,0 +1,102 @@
+*{
+    
+}
+body {
+    background: linear-gradient(90deg,#ffffff,#E2DED7);
+    text-align: center;
+}
+
+#mainLogo {
+    margin: -150px auto -200px auto;
+    padding: 0;
+
+}
+
+a{
+    color: A8933B;
+}
+
+#navBar_List {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font: 20px Trajan Pro, serif;
+    color: A8933B;
+    background-color: E2DED7;
+    padding: 15px 20px;
+}
+
+#info {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.fish-info {
+    display:flex;
+    flex-direction: row;
+    margin: 15px auto;
+}
+
+.fish-tile{
+    display: flex;
+    width: 66%;
+    background-color: E2DED7;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 10px;
+    
+}
+
+.fish-images{
+    width: 400px;
+}
+
+.fish-text{
+    text-align: left;
+    color: A8933B;
+    font: 16px Montserrat, sans-serif;
+    font-weight: bold;
+    
+}
+
+.tank-tile{
+    background-color: 4178AA;
+    border-radius: 10px;
+    width: 33%;
+    color: white;
+    font: 16px Montserrat, sans-serif;
+    flex-direction: end;
+    padding: 25px;
+    
+}
+
+#travel {
+    background: linear-gradient(rgba(65,120,170,0),rgba(65,120,170,1));
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 20px 0;
+}
+
+.travel-tile{
+    display: flex;
+    flex-direction: column;
+    font: 18px Montserrat, sans-serif;
+    margin: 25px;
+    align-items: center;
+    border: 2px solid #A8933B;
+    padding: 25px;
+    height: auto;
+    color: white;
+    font-style: italic;
+}
+
+.travel-images{
+    width: 250px;
+    padding: 20px;
+}
+
+p {
+    font: 24px Trajan Pro, serif;
+    color: A8933B;
+}
